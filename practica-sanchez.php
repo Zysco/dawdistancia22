@@ -11,15 +11,15 @@
   */ 
 
   /**
-    * Función suma de dos números
+    * Función multiplica de dos números
     * @param int $num1
     * @param int $num2
     * @return float
   */
 
-  function suma ($num1, $num2) {
-      $resultadosuma = $num1 + $num2;
-      return  'Resultado de la suma: ' . $resultadosuma;
+  function multiplica ($num1, $num2) {
+      $resultadomultiplicacion = $num1 * $num2;
+      return  'Resultado de la multipliacion: ' . $resultadomultiplicacion;
 
   }
 
@@ -38,7 +38,7 @@
 
   }
   
-$suma = suma (24,12);
+$suma = multiplica (24,12);
 echo $suma;
 echo "\n";
 $resta = resta (10,7);
